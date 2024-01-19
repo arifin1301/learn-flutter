@@ -21,7 +21,11 @@ class MyApp extends StatelessWidget {
             title: Text("First App"),
             backgroundColor: Colors.red,
             actions: <Widget>[
-              IconButton(onPressed: () {}, icon: Icon(Icons.chat_bubble))
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.chat_bubble),
+                color: Colors.amber,
+              )
             ],
           ),
           body: SafeArea(child: Text("flutter pertama")),
