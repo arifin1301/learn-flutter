@@ -28,7 +28,10 @@ class MyApp extends StatelessWidget {
               )
             ],
           ),
-          body: SafeArea(child: Text("flutter pertama")),
+          body: SafeArea(
+              child: Image(
+            image: AssetImage("assets/images/pets.png"),
+          )),
         ));
   }
 }
