@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,
@@ -19,6 +20,9 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text("First App"),
             backgroundColor: Colors.red,
+            actions: <Widget>[
+              IconButton(onPressed: () {}, icon: Icon(Icons.chat_bubble))
+            ],
           ),
           body: SafeArea(child: Text("flutter pertama")),
         ));
