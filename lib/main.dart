@@ -23,6 +23,9 @@ class MyApp extends StatelessWidget {
           ),
           body: SafeArea(
               child: Container(
+            color: Colors.white,
+            margin:
+                EdgeInsets.only(left: 15.0, top: 30.0, right: 5.0, bottom: 0),
             child: Column(
               children: <Widget>[
                 Image(image: AssetImage("assets/images/pets.png")),
