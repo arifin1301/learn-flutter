@@ -20,17 +20,16 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text("First App"),
             backgroundColor: Colors.red,
-            actions: <Widget>[
-              IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.chat_bubble),
-                color: Colors.amber,
-              )
-            ],
           ),
           body: SafeArea(
-              child: Image(
-            image: AssetImage("assets/images/pets.png"),
+              child: Container(
+            child: Column(
+              children: <Widget>[
+                Image(image: AssetImage("assets/images/pets.png")),
+                Text("Beli Meow anda Sekarang"),
+                Text("Meooww"),
+              ],
+            ),
           )),
         ));
   }
