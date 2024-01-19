@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'font_style.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,8 +30,14 @@ class MyApp extends StatelessWidget {
             child: Column(
               children: <Widget>[
                 Image(image: AssetImage("assets/images/pets.png")),
-                Text("Beli Meow anda Sekarang"),
-                Text("Meooww"),
+                Text(
+                  "Beli Meow anda Sekarang",
+                  style: mainHeader,
+                ),
+                Text(
+                  "Meooww adalah kucing ternak yang sangat pintar",
+                  style: subHeader,
+                ),
               ],
             ),
           )),
