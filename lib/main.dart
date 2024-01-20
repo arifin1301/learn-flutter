@@ -34,8 +34,9 @@ class MyApp extends StatelessWidget {
                   "Beli Meow anda Sekarang",
                   style: mainHeader,
                 ),
+                Padding(padding: EdgeInsets.only(top: 10.0)),
                 Text(
-                  "Meooww adalah kucing ternak yang sangat pintar",
+                  "Meooww adalah kucing \nternak yang sangat pintar",
                   style: subHeader,
                 ),
               ],
