@@ -24,24 +24,27 @@ class MyApp extends StatelessWidget {
           ),
           body: SafeArea(
               child: Container(
-            color: Colors.white,
-            margin:
-                EdgeInsets.only(left: 15.0, top: 30.0, right: 5.0, bottom: 0),
-            child: Column(
-              children: <Widget>[
-                Image(image: AssetImage("assets/images/pets.png")),
-                Text(
-                  "Beli Meow anda Sekarang",
-                  style: mainHeader,
-                ),
-                Padding(padding: EdgeInsets.only(top: 10.0)),
-                Text(
-                  "Meooww adalah kucing \nternak yang sangat pintar",
-                  style: subHeader,
-                ),
-              ],
-            ),
-          )),
+                  color: Colors.white,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: <Widget>[
+                          Image(image: AssetImage("assets/images/pets.png")),
+                          Text(
+                            "Beli Meow anda Sekarang",
+                            style: mainHeader,
+                          ),
+                          Padding(padding: EdgeInsets.only(top: 10.0)),
+                          Text(
+                            "Meooww adalah kucing \nternak yang sangat pintar",
+                            style: subHeader,
+                          ),
+                        ],
+                      ),
+                    ],
+                  ))),
         ));
   }
 }
