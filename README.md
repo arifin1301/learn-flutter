@@ -1,6 +1,6 @@
 # first_project
 
-A new Flutter project.
+This is My First Project for learning flutter
 
 ## Getting Started
 
